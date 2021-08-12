@@ -1,0 +1,30 @@
+# -=-=-=-=-=-=-=-=-=-=-=-=-
+# MuteChat by TechyGaming
+# File | messages.yml
+# -=-=-=-=-=-=-=-=-=-=-=-=-
+
+mute-chat:
+  mute:
+    staff: '&c&lStaff &8> &f%player% &7muted the chat.'
+    broadcast: '&cThe chat has been muted by %player%.'
+    chat-fail: '&cThe chat is currently muted.'
+  unmute:
+    staff: '&c&lStaff &8> &f%player% &7unmuted the chat.'
+    broadcast: '&cThe chat has been unmuted by %player%.'
+
+chat-filter:
+  blocked-msg: '&cYour message was blocked as it contains disallowed language.'
+  staff-notification: '&c&lFiltered &8> &f%player%&7: &f%message%'
+
+slow-chat:
+  enable:
+    staff: '&c&lStaff &8> &f%player% &7slowed chat by &f%seconds% &7seconds.'
+    broadcast: '&c%player% slowed chat by %seconds% seconds.'
+    chat-fail: '&cChat is currently slowed. Please wait %seconds% seconds before chatting again.'
+  disable:
+    staff: '&c&lStaff &8> &f%player% &7disabled slow chat.'
+    broadcast: '&c%player% disabled slow chat.'
+
+clear-chat:
+  staff: '&c&lStaff &8> &f%player% &7cleared global chat.'
+  broadcast: '&cChat has been cleared by %player%.'

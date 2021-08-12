@@ -1,0 +1,20 @@
+name: MuteChat
+version: 2.1
+author: TechyGaming
+description: A simple chat control plugin for server admins.
+website: https://www.spigotmc.org/resources/mutechat.77871/
+main: me.techygaming.mutechat.Main
+
+commands:
+  mutechat:
+    aliases: [silencechat, hushchat, muteglobalchat, mc]
+    description: Mutes global server chat.
+  slowchat:
+    aliases: [chatspeed, sc]
+    description: Slows global server chat.
+  clearchat:
+    aliases: [chatclear, cc]
+    description: Clears global server chat.
+  mutechatreload:
+    aliases: [mcr]
+    description: Reloads the plugin files.

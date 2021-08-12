@@ -1,0 +1,18 @@
+# -=-=-=-=-=-=-=-=-=-=-=-=-
+# MuteChat by TechyGaming
+# File | config.yml
+# -=-=-=-=-=-=-=-=-=-=-=-=-
+
+update-notification: true
+
+permission-nodes:
+  mutechat: mutechat.mute
+  slowchat: mutechat.slow
+  clearchat: mutechat.clear
+  staff-notifications: mutechat.staff
+  mutechat-bypass: mutechat.mute.bypass
+  slowchat-bypass: mutechat.slow.bypass
+  chat-filter-bypass: mutechat.filter.bypass
+
+  # Used to reload plugin
+  admin: mutechat.admin
